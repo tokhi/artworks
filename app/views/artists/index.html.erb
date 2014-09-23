@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Artist page</title>
 
+
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,300,700,700italic,300italic|Bree+Serif' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
-
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,13 +18,13 @@
     <![endif]-->
   </head>
   <body id="home">
-
+    <%= render "shared/slideshow" %>
     <section class="container">
       <div class="content row">
 
         <section class="main col col-lg-8">
-          <h2>Artist Main page</h2>
-          
+          <%= render "article" %>
+           <%= render "avenue" %>
         </section>
         <!-- @end section main -->
 
